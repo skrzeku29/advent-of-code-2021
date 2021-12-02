@@ -6,7 +6,6 @@ def gen_array_of_data():
 def calculate_position(data):
     horiz=0
     depth=0
-    aim=0
     for item in data:
         item = item.split(" ")
         if item[0] == "forward":
