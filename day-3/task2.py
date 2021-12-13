@@ -191,6 +191,7 @@ flipp=list(map(list, zip(*data)))
 print(flipp)
 nd_data=flipp
 
+# Only Works when one print is commented take values and add to the print bellow
 # print("oxygen "+str(counter_thing(flipp)))
 
 print("co2 "+str(opposite_counter_thing(nd_data)))
